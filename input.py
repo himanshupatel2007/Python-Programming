@@ -1,0 +1,6 @@
+name = input("Enter Your Name :")
+print(f"Hello {name}!")
+age = input("enter yur age:")
+age = int(age)
+if age >18 :print("You can Vote!")
+else : print("You can not Vote!")
