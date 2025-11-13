@@ -1,0 +1,6 @@
+name = input("Enter name : ")
+noun = input("Enter noun : ")
+verb = input("Enter verb : ")
+print(f"Today I went to college with {name}")
+print(f"And there we saw {noun}")
+print(f"{noun} was {verb}ing!")
