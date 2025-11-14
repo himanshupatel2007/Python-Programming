@@ -1,0 +1,11 @@
+a = float(input("Enter the number 1 : "))
+b = float(input("Enter the number 2 : "))
+operation = ["Addition(+)","Substraction(-)","Multiplication(*)","Division(/)"]
+print("Choose the Operation : ")
+for i in operation : print(i)
+choosen = input("Enter the Operation : ")
+if choosen == "+" :print(f"Addition : {a+b}")
+elif choosen == "-" :print(f"Substraction : {a-b}")
+elif choosen == "*" :print(f"Multiplication : {a*b}")
+elif choosen == "/" :print(f"Division : {a/b}")
+else : print("Invalid Input")
