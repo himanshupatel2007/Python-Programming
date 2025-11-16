@@ -1,0 +1,5 @@
+para = input("Enter paragrapgh : ")
+para = para.replace(" ","-")
+print(f"modified paragraph : {para}")
+length = len(para)
+print(f"Length : {length - para.count("-")}")
