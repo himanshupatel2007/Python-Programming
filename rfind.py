@@ -1,0 +1,5 @@
+para = input("Enter the Sentence : ")
+word = input("Enter the word :")
+is_found = para.rfind(word)
+if is_found : print(f"Found at index : {is_found}")
+else : print("Not Found")
