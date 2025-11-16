@@ -1,0 +1,5 @@
+sentence = input("Enter the sentence : ")
+word = input("Enter the word to find :")
+is_found = sentence.find(word)
+if is_found :print(f"Found at index : {is_found}")
+else : print("Not Found")
